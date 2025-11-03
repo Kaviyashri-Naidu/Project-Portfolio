@@ -1,0 +1,61 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0a0a23;
+}
+
+/* Glow effects */
+.text-glow {
+    text-shadow: 0 0 8px rgba(168, 85, 247, 0.7), 0 0 20px rgba(168, 85, 247, 0.5);
+}
+
+.btn-glow {
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.5), 0 0 20px rgba(168, 85, 247, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-glow:hover {
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.8), 0 0 30px rgba(168, 85, 247, 0.5);
+    transform: translateY(-2px);
+}
+
+/* Card glow */
+.card-glow {
+    background-color: #1a1a3d;
+    border: 1px solid #3a3a5a;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-glow:hover {
+    border-color: #a855f7;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Input styling */
+.form-input {
+    background-color: #1a1a3d;
+    border: 1px solid #3a3a5a;
+    color: #e0e0e0;
+}
+
+.form-input:focus {
+    background-color: #2a2a4d;
+    border-color: #a855f7;
+    box-shadow: 0 0 10px rgba(168, 85, 247, 0.5);
+    outline: none;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #0a0a23;
+}
+::-webkit-scrollbar-thumb {
+    background: #a855f7;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #c084fc;
+}
